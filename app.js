@@ -16,8 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin:
-      "https://sdn-assignment4-ceato2tp9-phats-projects-e7de95df.vercel.app/login",
+    origin: "https://sdn-assignment4.vercel.app/login",
   })
 );
 
