@@ -19,6 +19,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173", // Cho phép frontend khi bạn phát triển ở máy
   "https://sdn-assignment4.vercel.app", // Cho phép frontend khi đã deploy lên Vercel
+  "https://simple-quiz-solo-project.vercel.app", // Frontend deploy mới
 ];
 
 app.use(
